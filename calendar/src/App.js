@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import Items from "./components/Items";
+import {} from "./App.css";
 
 function App() {
 

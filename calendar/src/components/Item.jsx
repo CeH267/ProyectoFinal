@@ -8,7 +8,7 @@ const Item = ({item}) => {
       <p>{item.day}</p>
       <div className="row item">
             <div className="col-sm-3">
-                <img src={ImgCategory} alt="" />
+                <img src={ImgCategory} alt="Categoria" className='img-fluid p-0' />
             </div>
             <div className="col-sm-8">
               {item.title} - {item.category}
