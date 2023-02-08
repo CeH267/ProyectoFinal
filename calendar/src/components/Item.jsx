@@ -2,16 +2,17 @@ import ImgCategory from './../desarrollo-programacion.png';
 
 
 
-const Item = ({item}) => {
+const Item = () => {
   return (
-    <div className="col-sm-10" key={item.id}>
+    
+    <div className="col-sm-10">
       <p>{item.day}</p>
       <div className="row item">
             <div className="col-sm-3">
-                <img src={ImgCategory} alt="Categoria" className='img-fluid p-0' />
+                <img src="" alt="Categoria" className='img-fluid p-0' />
             </div>
             <div className="col-sm-8">
-              {item.title} - {item.category}
+              Hola - Hola
             </div>
             <div className="col-sm-1">
                 Eliminar

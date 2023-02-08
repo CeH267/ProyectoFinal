@@ -1,7 +1,8 @@
 
 import { useState } from "react";
 import Header from "./components/Header";
-import Items from "./components/Items";
+//import Items from "./components/Items";
+import ListItem from "./components/ListItem";
 import {} from "./App.css";
 
 function App() {
@@ -47,7 +48,8 @@ function App() {
     <div className="container">
       <div className="row justify-content-center">
         <Header />
-        <Items items = {items}  />
+        <ListItem/>
+        
       </div>
     </div>
   )
